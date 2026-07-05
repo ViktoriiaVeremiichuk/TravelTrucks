@@ -66,7 +66,7 @@
 .formInput {
   border-radius: 12px;
   border: none;
-  padding: 18px 337px 18px 18px;
+  padding: 18px 18px 18px 18px;
   width: 527px;
   height: 60px;
   background: var(--inputs);
