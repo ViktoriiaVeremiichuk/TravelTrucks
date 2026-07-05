@@ -1,0 +1,139 @@
+.topSection {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  padding-top: 64px;
+  margin-bottom: 88px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.headerRating {
+  border-radius: 16px;
+  padding: 24px;
+  width: 650px;
+  height: 304px;
+  background: var(--inputs);
+}
+
+.title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  color: var(--main);
+}
+
+.mb8 {
+  margin-bottom: 8px;
+}
+
+.infoReviews {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--main);
+}
+.staricon {
+  fill: var(--rating);
+  width: 15px;
+  height: 14px;
+}
+
+.mapicon {
+  fill: var(--main);
+  width: 16px;
+  height: 16px;
+}
+
+.mb16 {
+  margin-bottom: 16px;
+}
+
+.price {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  color: var(--main);
+}
+
+.mb24 {
+  margin-bottom: 24px;
+}
+
+.description {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--text);
+}
+
+.details {
+  border-radius: 16px;
+  padding: 24px;
+  width: 650px;
+  height: 360px;
+  background: var(--inputs);
+}
+
+.amenitiesList {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  border-bottom: 1px solid var(--gray-light);
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+.amenityItem {
+  border-radius: 100px;
+  padding: 12px 18px;
+  width: 115px;
+  height: 48px;
+  background: var(--badges);
+  mix-blend-mode: multiply;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--main);
+  text-transform: capitalize;
+}
+
+.detailsList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.detailsItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--main);
+}
+
+.reviewSection {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  margin-bottom: 232px;
+}

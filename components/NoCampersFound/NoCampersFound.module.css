@@ -1,0 +1,88 @@
+.overlay {
+  border-radius: 16px;
+  padding: 24px;
+  width: 888px;
+  height: 840px;
+  background: var(--inputs);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  margin-bottom: 21px;
+}
+
+.title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  text-align: center;
+  color: var(--main);
+  margin-bottom: 16px;
+}
+
+.info {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--main);
+  margin-bottom: 43px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.clearbtn {
+  border: 1px solid var(--gray-light);
+  border-radius: 200px;
+  padding: 16px 38px;
+  width: 200px;
+  height: 56px;
+  background: var(--white);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: var(--main);
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.clearbtn:hover {
+  border: 1px solid var(--green-hover);
+}
+
+.campersbtn {
+  border-radius: 200px;
+  border: none;
+  padding: 16px 31.5px;
+  width: 200px;
+  height: 56px;
+  background: var(--grey-green);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: var(--white);
+}
+
+.campersbtn:hover {
+  background: var(--green-hover);
+}

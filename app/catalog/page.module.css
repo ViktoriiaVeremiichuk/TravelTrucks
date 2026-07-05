@@ -1,0 +1,25 @@
+.catalogContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+  align-items: flex-start;
+  padding-top: 48px;
+}
+
+.catalogWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 52px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 40px;
+}
+
+.cardItem {
+  scroll-margin-top: 90px;
+}
